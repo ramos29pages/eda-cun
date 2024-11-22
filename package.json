@@ -4,10 +4,12 @@
   "description": "this is a test for cun work",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node app.js",
-    "gg": "node ./src/utils/generar-data.js"
-  },
+  "start": "node app.js",
+  "test": "echo \"Error: no test specified\" && exit 1",
+  "dev": "node app.js",
+  "gg": "node ./src/utils/generar-data.js",
+  "build": "npm install"
+},
   "keywords": [
     "ia",
     "analisis-datos",
